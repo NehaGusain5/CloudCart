@@ -1,0 +1,133 @@
+# Cursor Rules
+
+## Instructions
+
+- Record fixes for mistakes or corrections to avoid repetition in the `Lessons` section.
+- Organize thoughts and plan steps before starting a task in the `Scratchpad` section.
+- Clear old tasks if necessary.
+- Use todo markers for progress tracking:
+  - `[X]` Completed tasks
+  - `[ ]` Pending tasks
+- Update Scratchpad after completing subtasks.
+- Reflect and plan after milestones for better task management.
+- Always refer to Scratchpad before planning the next step.
+
+## Lessons
+
+
+## Scratchpad
+
+# E-commerce Website Development Plan
+
+### Phase 1: Project Setup and Configuration
+[X] Initial project setup
+  - Initialize Next.js 15 project with TypeScript
+  - Set up project structure and folders
+  - Configure ESLint and Prettier
+  - Set up Git repository
+
+[X] Dependencies and UI Setup
+  - Install and configure Shadcn UI
+  - Set up Lucide icons
+  - Configure Tailwind CSS
+  - Install other required dependencies (Zod, Zustand, etc.)
+
+[ ] Database and Authentication Setup
+  - Set up PostgreSQL database
+  - Configure Prisma ORM and create initial schema
+  - Implement NextAuth.js beta for authentication
+  - Set up different user roles (admin, customer)
+
+### Phase 2: Core Features - Admin Dashboard
+[ ] Admin Authentication and Layout
+  - Create admin login/register system
+  - Design admin dashboard layout
+  - Implement sidebar navigation
+  - Add admin profile management
+
+[ ] Product Management
+  - Create product CRUD operations
+  - Implement product categories and tags
+  - Add product image upload using Uploadthing
+  - Implement product inventory management
+  - Add product search and filtering
+
+[ ] Order Management
+  - Create order listing and details view
+  - Implement order status updates
+  - Add order filtering and search
+  - Create order analytics dashboard
+
+[ ] Analytics and Reports
+  - Implement sales analytics using Recharts
+  - Create revenue reports
+  - Add customer insights dashboard
+  - Implement inventory reports
+
+### Phase 3: Customer-Facing Features
+[ ] User Interface
+  - Design and implement homepage
+  - Create product listing pages
+  - Add product detail pages
+  - Implement search functionality
+  - Create category navigation
+
+[ ] Shopping Features
+  - Implement shopping cart using Zustand
+  - Add wishlist functionality
+  - Create product reviews and ratings
+  - Add product recommendations
+
+[ ] Checkout Process
+  - Implement Stripe payment integration
+  - Create checkout flow
+  - Add address management
+  - Implement order confirmation
+  - Set up email notifications using Resend
+
+### Phase 4: Advanced Features
+[ ] Search and Filtering
+  - Implement advanced search
+  - Add price range filters
+  - Create category filters
+  - Add sorting options
+
+[ ] User Features
+  - Create user dashboard
+  - Add order history
+  - Implement saved addresses
+  - Create wishlist management
+  - Add review management
+
+[ ] Performance and SEO
+  - Implement SEO optimization
+  - Add meta tags
+  - Optimize images and loading
+  - Implement caching strategies
+
+### Phase 5: Testing and Deployment
+[ ] Testing
+  - Write unit tests
+  - Perform integration testing
+  - Conduct user acceptance testing
+  - Test payment flow
+
+[ ] Deployment
+  - Set up production environment
+  - Configure environment variables
+  - Deploy database
+  - Set up monitoring
+  - Deploy application
+
+### Phase 6: Post-Launch
+[ ] Monitoring and Maintenance
+  - Set up error tracking
+  - Monitor performance
+  - Implement backup strategy
+  - Plan for updates and maintenance
+
+[ ] Documentation
+  - Create API documentation
+  - Write user guides
+  - Document admin processes
+  - Create maintenance documentation
